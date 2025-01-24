@@ -9,10 +9,10 @@ function Copyrights() {
             <section >
                 <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0 py-5 min-h-[80vh]">
                     <div className="lg:flex md:flex  gap-8 ">
-                        <div className="max-w-full w-full ">
-                            <h1 className="text-primary-blue-color text-3xl font-bold ">Copyright Form</h1>
-                            <h1 className="lg:text-xl font-semibold mb-2 mt-8">DECLARATION</h1>
-                            <p className="md:w-[450px] leading-relaxed" > I/We
+                        <div className="max-w-full w-full  md:text-base text-sm">
+                            <h1 className="text-primary-blue-color md:text-3xl text-xl font-bold ">Copyright Form</h1>
+                            <h1 className="lg:text-xl text-lg font-semibold mb-2 md:mt-8 mt-4">DECLARATION</h1>
+                            <p className="md:w-[450px] leading-relaxed  " > I/We
                                 ____________________________.  The author / authors of the research paper/article
                                 entitled ______________________
                                 authorize you to publish the above mentioned paper/article in AJARCSE.</p>

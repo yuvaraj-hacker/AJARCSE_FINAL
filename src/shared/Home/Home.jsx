@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Sidebar from "../Sidebar/Sidebar";
 import { FaCircle } from "react-icons/fa";
 
@@ -38,7 +37,7 @@ function Home() {
                     "Human-Computer Interaction", "Software Development", "High-Performance Computing", "Evolutionary Algorithms",
                     "Distributed Systems", "Parallel Computing", "Mobile Computing", "5G Technologies", "Wearable Devices", "Cryptography",
                     "Digital Signal Processing", "Open-Source Software", "Game Development", "Social Network Privacy", "Bioinformatics",
-                     "Virtualization", "Green Computing", "Digital Twin", "Smart Cities", "E-Learning", "Computer-Aided Design", "Cognitive Computing",
+                    "Virtualization", "Green Computing", "Digital Twin", "Smart Cities", "E-Learning", "Computer-Aided Design", "Cognitive Computing",
                     "Speech Recognition", "Traffic Management", "Software Testing", "Semantic Web", "Database Optimization", "Ethical AI",
                     "Quantum Cryptography", "Compiler Design", "Digital Forensics", "Serverless Computing", "Business Intelligence",
                     "Drug Discovery", "Computational Fluid Dynamics", "Energy Informatics", "Advanced Algorithms", "Real-Time Systems",
@@ -52,22 +51,19 @@ function Home() {
                       <h1>{topics}</h1>
                     </div>
                   ))}
-                 
+
                 </div>
               </div>
-
               <Sidebar />
-
             </div>
           </div>
-
-          <h1 className="bg-slate-300 h-[1px] w-full mt-5"></h1>
+          <h1 className="bg-slate-300 h-[1px] w-full  "></h1>
           {/* </div> */}
         </section>
 
         <section>
           <div className="max-w-screen-xl mx-auto w-full lg:px-0 px-5 py-5">
-            <h1 className="mt-3 text-center">
+            <h1 className="mt-3 text-center md:text-base text-sm">
               We publish original research articles, review articles and
               technical notes. The journal reviews papers within two weeks of
               submission and publishes accepted articles on the internet
@@ -78,14 +74,14 @@ function Home() {
             <h1 className="text-center mt-2">
               Launch of Next Issue: 28<sup>th</sup>  Oct 2025
             </h1>
-            <h1 className="text-center mt-2 bg-primary-dark-blue p-2 font-semibold">
+            <h1 className="text-center mt-2 bg-primary-dark-blue p-2 font-semibold md:text-base text-sm">
               Last Date for Submission of Manuscript for next Issue: 22<sup>nd</sup> Oct
               2025
             </h1>
 
             <h1 className="text-center mt-2">With Warm Regards,</h1>
-            <h1 className="text-center font-semibold mt-2">Editor-in-chief</h1>
-            <h1 className="text-center font-semibold mt-1">AJARCSE</h1>
+            <h1 className="text-center font-semibold mt-2 md:text-base text-sm">Editor-in-chief</h1>
+            <h1 className="text-center font-semibold mt-1 md:text-base text-sm">AJARCSE</h1>
           </div>
         </section>
       </section>

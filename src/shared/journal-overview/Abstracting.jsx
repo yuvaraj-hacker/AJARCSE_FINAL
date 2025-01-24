@@ -8,11 +8,11 @@ function Abstracting() {
         <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0 py-5">
           <div className="lg:flex md:flex  gap-8 ">
             <div className="max-w-full w-full leading-relaxed">
-              <h1 className="text-primary-blue-color text-3xl font-bold ">
+              <h1 className="text-primary-blue-color md:text-3xl text-xl font-bold ">
                 Abstracting and Indexing
               </h1>
-              <div className="space-y-4">
-                <p className="mt-8 ">Selected  AJARCSE will be indexed in all major indexing services, including Web of Science, Scopus, EBSCO, ProQuest, CNKI, DBLP, Google Scholar, Microsoft Academic Search, OCLC Discovery Services, DOAJ, Elektronische Zeitschriftenbibliothek, CrossRef, and others soon.</p>
+              <div className="md:space-y-4 space-y-2">
+                <p className="md:mt-8 mt-4 md:text-base text-sm ">Selected  AJARCSE will be indexed in all major indexing services, including Web of Science, Scopus, EBSCO, ProQuest, CNKI, DBLP, Google Scholar, Microsoft Academic Search, OCLC Discovery Services, DOAJ, Elektronische Zeitschriftenbibliothek, CrossRef, and others soon.</p>
                 <div className="rounded-bl-3xl">
                   <p className="md:text-lg font-semibold">Global Visibility</p>
                   <ul className="list-disc list-inside ">

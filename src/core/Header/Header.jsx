@@ -172,7 +172,7 @@ function Header() {
                           </Link>
                         </li>
                         <li onClick={togglemenuDropdown1}>
-                          <Link to="/articleProcess" onClick={scrollToTop} className="   xl:hidden block px-4 py-2 border-b rounded hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"  >
+                          <Link to="/aim-nd-scope" onClick={scrollToTop} className="   xl:hidden block px-4 py-2 border-b rounded hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"  >
                             Aim and Scope
                           </Link>
                         </li>
@@ -210,7 +210,21 @@ function Header() {
                             Article Processing Charges
                           </Link>
                         </li>
-
+                        <li onClick={togglemenuDropdown1}>
+                          <Link to="/issues" onClick={scrollToTop} className=" xl:hidden block px-4 py-2 border-b rounded hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"  >
+                            Issues
+                          </Link>
+                        </li>
+                        <li onClick={togglemenuDropdown1}>
+                          <Link to="/author-guidelines" onClick={scrollToTop} className=" xl:hidden block px-4 py-2 border-b rounded hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"  >
+                            Author Guidelines
+                          </Link>
+                        </li>
+                        <li onClick={togglemenuDropdown1}>
+                          <Link to="/copyright-form" onClick={scrollToTop} className=" xl:hidden block px-4 py-2 border-b rounded hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"  >
+                            Copyright Form
+                          </Link>
+                        </li>
                       </ul>
                     </div>
                   </div>

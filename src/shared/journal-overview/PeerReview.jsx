@@ -10,10 +10,10 @@ function PeerReview() {
         <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0 py-5">
           <div className="lg:flex md:flex  gap-8 ">
             <div className="max-w-full w-full leading-relaxed">
-              <h1 className="text-primary-blue-color text-3xl font-bold ">
+              <h1 className="text-primary-blue-color md:text-3xl text-xl font-bold ">
                 Peer Review Process
               </h1>
-              <p className="py-5 mt-3 text-justify">
+              <p className="  mt-3 mb-4 text-justify md:text-base text-sm">
                 AJARCSE are peer-reviewed, community-driven research journals
                 covering the latest specialist topics at the emerging
                 intersections of IT and other fields. A general guide for how to
@@ -22,12 +22,12 @@ function PeerReview() {
                 AJARCSE Editorial Board & Reviewers.
               </p>
               <h3 className="font-semibold mb-2 ">
-                  <i>Requirements for publishing in</i> AJARCSE:
-                </h3>
-              <ul className="list-disc  list-outside pl-5  text-justify">
-                
+                <i>Requirements for publishing in</i> AJARCSE:
+              </h3>
+              <ul className="list-disc  list-outside pl-5  text-justify md:text-base text-sm">
+
                 <li className="">
-                  The articles must be written by the correct AJARCSE 
+                  The articles must be written by the correct AJARCSE
                   <a
                     href="/documents/"
                     target="blank"
@@ -84,10 +84,10 @@ function PeerReview() {
                 </li>
               </ul>
               <h3 className="font-semibold mt-5 mb-2">
-                  <i>To submit a paper via OJS you will need:</i>{" "}
-                </h3>
-              <ul className=" list-outside pl-5  list-disc text-justify mb-5">
-                
+                <i>To submit a paper via OJS you will need:</i>{" "}
+              </h3>
+              <ul className=" list-outside pl-5  list-disc text-justify mb-5 md:text-base text-sm">
+
                 <li>
                   Your manuscript in the OpenOffice, Microsoft Word, or RTF
                   document file format.
@@ -113,8 +113,8 @@ function PeerReview() {
               </a>
               <h1 className="text-xl font-semibold mb-2 mt-5">Article types</h1>
 
-              <ul className="  list-outside pl-5  list-disc text-justify">
-                
+              <ul className="  list-outside pl-5  list-disc text-justify md:text-base text-sm">
+
                 <li>
                   Research article: Articles (4000-8000 words) that report
                   original research and which present objective, questions,
@@ -161,7 +161,7 @@ function PeerReview() {
                 Benefits of AJARCSE
               </h1>
               <h3 className="font-semibold mb-2">Open Access</h3>
-              <ul className=" list-outside pl-5  list-disc text-justify">
+              <ul className=" list-outside pl-5  list-disc text-justify md:text-base text-sm">
                 <li>
                   All articles in the AJARCSE journal is an Open Access (OA).
                 </li>
@@ -180,7 +180,7 @@ function PeerReview() {
               <h3 className="font-semibold mt-5 mb-2">
                 Rigorous review process
               </h3>
-              <p className="text-justify ">
+              <p className="text-justify md:text-base text-sm">
                 Submitted papers are double-blind reviewed. The thoroughly
                 transparent review process increases review quality by
                 simultaneously evaluating the performance of reviewers and the
