@@ -1,12 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Sidebar from '../Sidebar/Sidebar';
-
 function Copyrights() {
-
     return (
         <>
-            <section className='md:py-10 py-5'>
+            <section className=' '>
                 <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0   ">
                     <div className="lg:flex md:flex  gap-8 ">
                         <div className="max-w-full w-full  md:text-base text-sm">
@@ -38,7 +35,6 @@ function Copyrights() {
                             <h1 className=" text-justify mb-2">4. I/We agree to indemnify the Editors AJARCSE against all claims
                                 and expenses arising from any breach of warranty from me/us in this
                                 agreement.</h1>
-
                             <div className="flex justify-between items-center mt-5">
                                 <div>
                                     <h1>Date:</h1>
@@ -50,39 +46,13 @@ function Copyrights() {
                                     <h1>Address</h1>
                                 </div>
                             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                         </div>
-
                         <Sidebar />
-
                     </div>
-
                     <h1 className="bg-slate-300 h-[1px] w-full mt-5"></h1>
                 </div>
-
             </section>
-
-
         </>
     )
 }
-
 export default Copyrights

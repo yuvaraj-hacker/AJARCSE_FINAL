@@ -2,12 +2,11 @@ import React from "react";
 import Sidebar from "../Sidebar/Sidebar";
 import { Link } from "react-router-dom";
 import { GrDocumentZip } from "react-icons/gr";
-
 function PeerReview() {
   return (
     <>
       <section>
-        <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0  md:py-10 py-5">
+        <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0 ">
           <div className="lg:flex md:flex  gap-8 ">
             <div className="max-w-full w-full leading-relaxed">
               <h1 className="text-primary-blue-color md:text-3xl text-xl font-bold ">
@@ -25,14 +24,9 @@ function PeerReview() {
                 <i>Requirements for publishing in</i> AJARCSE:
               </h3>
               <ul className="list-disc  list-outside pl-5  text-justify md:text-base text-sm">
-
                 <li className="">
                   The articles must be written by the correct AJARCSE
-                  <a
-                    href="/documents/"
-                    target="blank"
-                    className="text-blue-700 underline inline-flex ml-1 gap-1 items-center"
-                  > {''} template < GrDocumentZip className="text-lg" /></a>
+                  <a href="/documents/" target="blank" className="text-blue-700 underline inline-flex ml-1 gap-1 items-center"  > {''} template < GrDocumentZip className="text-lg" /></a>
                 </li>
                 <li>
                   Researchers should adhere to publication requirements that
@@ -74,10 +68,7 @@ function PeerReview() {
                 </li>
                 <li>
                   The paper must be submitted through the
-                  <a
-                    href="https://AJARCSE.com/aritms/index.php/AJARCSE/about/submissions"
-                    className="text-blue-700 underline whitespace-nowrap"
-                  >
+                  <a href="https://AJARCSE.com/aritms/index.php/AJARCSE/about/submissions" className="text-blue-700 underline whitespace-nowrap"  >
                     {" "}
                     Open Journal System
                   </a>
@@ -87,34 +78,24 @@ function PeerReview() {
                 <i>To submit a paper via OJS you will need:</i>{" "}
               </h3>
               <ul className=" list-outside pl-5  list-disc text-justify mb-5 md:text-base text-sm">
-
                 <li>
                   Your manuscript in the OpenOffice, Microsoft Word, or RTF
                   document file format.
                 </li>
-
                 <li>
                   The manuscript should be prepared according to the guidelines
                   and requirements. For more information, please write to
-                  <a
-                    href="mailto:editor@AJARCSE.com"
-                    className="text-blue-700 underline  "
-                  >
+                  <a href="mailto:editor@AJARCSE.com" className="text-blue-700 underline" >
                     {" "}
                     editor@ajarcse.com.
                   </a>
                 </li>
               </ul>
-              <a
-                href="https://AJARCSE.com/aritms/index.php/AJARCSE/submission/wizard"
-                className="text-blue-700 underline underline-offset-1 hover:underline-offset-4 hover:text-blue-500 duration-200 pt-5"
-              >
+              <a href="https://AJARCSE.com/aritms/index.php/AJARCSE/submission/wizard" className="text-blue-700 underline underline-offset-1 hover:underline-offset-4 hover:text-blue-500 duration-200 pt-5"   >
                 Submit a paper via OJS
               </a>
               <h1 className="text-xl font-semibold mb-2 mt-5">Article types</h1>
-
               <ul className="  list-outside pl-5  list-disc text-justify md:text-base text-sm">
-
                 <li>
                   Research article: Articles (4000-8000 words) that report
                   original research and which present objective, questions,
@@ -156,7 +137,6 @@ function PeerReview() {
                   research community.
                 </li>
               </ul>
-
               <h1 className="text-xl font-semibold mt-5 mb-2">
                 Benefits of AJARCSE
               </h1>
@@ -189,12 +169,10 @@ function PeerReview() {
             </div>
             <Sidebar />
           </div>
-
           <h1 className="bg-slate-300 h-[1px] w-full mt-5 "></h1>
         </div>
       </section>
     </>
   );
 }
-
 export default PeerReview;

@@ -1,12 +1,10 @@
 import React from 'react'
 import Sidebar from '../Sidebar/Sidebar';
-
 function AimScope() {
-
   return (
     <>
       <section >
-        <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0   md:py-10  py-5">
+        <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0">
           <div className="lg:flex md:flex  gap-8 ">
             <div className="max-w-full w-full">
               <h1 className="text-primary-blue-color md:text-3xl text-xl font-bold ">Aim And Scope</h1>
@@ -24,18 +22,11 @@ function AimScope() {
                 technological challenges, are encouraged.</h1>
             </div>
             <Sidebar />
-
           </div>
-
           <h1 className="bg-slate-300 h-[1px] w-full mt-5"></h1>
         </div>
-
       </section>
-
-
     </>
   )
 }
-
 export default AimScope
-

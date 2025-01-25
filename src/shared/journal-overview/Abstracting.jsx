@@ -1,10 +1,9 @@
 import React from "react";
 import Sidebar from "../Sidebar/Sidebar";
-
 function Abstracting() {
   return (
     <>
-      <section className="md:py-10 py-5">
+      <section className=" ">
         <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0  ">
           <div className="lg:flex md:flex  gap-8 ">
             <div className="max-w-full w-full leading-relaxed">
@@ -43,26 +42,14 @@ function Abstracting() {
                     <li className="text-gray-600 md:text-base text-sm">Availability in open-access directories like DOAJ, promoting unrestricted global access to research.</li>
                   </ul>
                 </div>
-
-
-                {/* <div className="rounded-bl-3xl">
-                  <h3 className="md:text-xl font-semibold">Full Coverage</h3>
-                  <p className="text-gray-600 md:text-base text-sm">Complete metadata and full-text indexing</p>
-                </div>
-                <div className="rounded-bl-3xl">
-                  <h3 className="md:text-xl font-semibold">Citation Tracking</h3>
-                  <p className="text-gray-600 md:text-base text-sm">Comprehensive impact monitoring</p>
-                </div> */}
               </div>
             </div>
             <Sidebar />
           </div>
-
           <h1 className="bg-slate-300 h-[1px] w-full mt-5"></h1>
         </div>
       </section>
     </>
   );
 }
-
 export default Abstracting;

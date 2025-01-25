@@ -1,17 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Sidebar from '../Sidebar/Sidebar';
-
 function Issues() {
-
-
     return (
         <>
-
-
-
             <section >
-                <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0  md:py-10 py-5  ">
+                <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0  ">
                     <div className="lg:flex md:flex  gap-8 ">
                         <div className="max-w-full w-full ">
                             <h1 className="text-primary-blue-color text-3xl font-bold ">Issues</h1>
@@ -40,24 +34,14 @@ function Issues() {
                         <li><a href="#" className='text-primary-blue-color underline'>Volume 4  Issue 1</a></li>
                     </ul>
                     </div> */}
-
                             </div>
-
-
-
                         </div>
-
                         <Sidebar />
-
                     </div>
-
                     <h1 className="bg-slate-300 h-[1px] w-full mt-5"></h1>
                 </div>
-
             </section>
-
         </>
     )
 }
-
 export default Issues

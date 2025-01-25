@@ -1,17 +1,11 @@
-
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Sidebar from '../Sidebar/Sidebar';
 import { GrDocumentZip } from "react-icons/gr";
-
 function AuthorGuidelines() {
-
-
-
   return (
     <>
-
-      <section  className='md:py-10 py-5'>
+      <section className=' '>
         <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0 ">
           <div className="lg:flex md:flex  gap-8 ">
             <div className="max-w-full w-full ">
@@ -28,7 +22,6 @@ function AuthorGuidelines() {
                 <i>Requirements for publishing in</i> AJARCSE:
               </h3>
               <ul className="list-disc list-outside pl-5  text-justify md:text-base text-sm">
-
                 <li className="">
                   The articles must be written by the correct AJARCSE
                   <a
@@ -90,12 +83,10 @@ function AuthorGuidelines() {
                 <i>To submit a paper via OJS you will need:</i>{" "}
               </h3>
               <ul className=" list-outside pl-5  list-disc text-justify mb-5 md:text-base text-sm">
-
                 <li>
                   Your manuscript in the OpenOffice, Microsoft Word, or RTF
                   document file format.
                 </li>
-
                 <li>
                   The manuscript should be prepared according to the guidelines
                   and requirements. For more information, please write to
@@ -115,9 +106,7 @@ function AuthorGuidelines() {
                 Submit a paper via OJS
               </a>
               <h1 className="text-xl font-semibold mb-2 mt-5">Article types</h1>
-
               <ul className="  list-outside pl-5 list-disc text-justify md:text-base text-sm">
-
                 <li>
                   Research article: Articles (4000-8000 words) that report
                   original research and which present objective, questions,
@@ -159,7 +148,6 @@ function AuthorGuidelines() {
                   research community.
                 </li>
               </ul>
-
               <h1 className="text-xl font-semibold mt-5 mb-2">
                 Benefits of AJARCSE
               </h1>
@@ -190,19 +178,12 @@ function AuthorGuidelines() {
                 impact and exploitation potential of the published article.
               </p>
             </div>
-
             <Sidebar />
-
           </div>
-
           <h1 className="bg-slate-300 h-[1px] w-full mt-5  "></h1>
         </div>
-
       </section>
-
-
     </>
   )
 }
-
 export default AuthorGuidelines

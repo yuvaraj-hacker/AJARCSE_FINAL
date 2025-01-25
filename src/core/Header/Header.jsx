@@ -1,21 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
-import "./Header.css";
-
 import { Link } from "react-router-dom";
-import Homepage from "../../components/Homepage";
-
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMenuOpen2, setIsMenuOpen2] = useState(false);
   const [dropdown1Open, setDropdown1Open] = useState(false);
   const [dropdown2Open, setDropdown2Open] = useState(false);
-
-  // click outside to close
   const menuRef = useRef(null);
   const menuRef2 = useRef(null);
-  // 
-
-  // close menu when click outside
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
@@ -28,8 +19,6 @@ function Header() {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
-  // 
-  // close menu when click outside
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (menuRef2.current && !menuRef2.current.contains(event.target)) {
@@ -41,57 +30,39 @@ function Header() {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
-  // 
-
-
-  // Right ~ for header menu button
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   const toggleDropdown1 = () => {
     setDropdown1Open(!dropdown1Open);
-
   };
   const toggleDropdown2 = () => {
     setDropdown2Open(!dropdown2Open);
-
   };
   const togglemenuDropdown1 = () => {
     toggleMenu();
     toggleDropdown1();
-
   };
   const togglemenuDropdown2 = () => {
     toggleMenu();
     toggleDropdown2();
   };
-
-
-  //Left ~ for sidebar menu button
   const toggleMenu2 = () => {
     setIsMenuOpen2(!isMenuOpen2);
   };
-
-
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
-
   return (
     <>
       <header ref={menuRef2}>
         <nav ref={menuRef} className="  dark:bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 bg-primary-dark-blue">
-          {/* 1st half start */}
           <div className="hidden lg:block md:hidden max-w-full w-full mx-auto  ">
             <div className="lg:flex md:flex items-center gap-0 bg-primary-blue-color ">
               <Link to="/" onClick={scrollToTop}>
                 <div role="button" className="pr-16 pl-10 max-w-sm flex justify-center items-center   gap-2 md:max-w-xs  w-full font-bold text-center   lg:text-3xl head-shap  bg-white py-4"
                 >
-                  {/* <img className=" drop-shadow h-12" src="logo/logo.png" alt="" /> */}
-                  <img className=" drop-shadow    " src="/images/Logo.png" alt="" />
-                  {/* <h1 className="text-primary-blue-color drop-shadow">
-                  AJARCSE
-                </h1> */}
+                  <img className=" drop-shadow    " src="/assets/images/Logo.png" alt="" />
                 </div>
               </Link>
               <div className=" max-w-full w-full text-center font-semibold  lg:text-2xl text-sm text-white lg:py-0 md:py-0 py-2 px-2">
@@ -99,16 +70,11 @@ function Header() {
               </div>
             </div>
           </div>
-          {/* 2nd half start */}
           <div className="max-w-screen-2xl bg-primary-dark-blue w-full flex  items-center gap-0  justify-between mx-auto px-4 py-2">
-
             <a className="lg:hidden flex items-center space-x-3 rtl:space-x-reverse">
               <Link to='/'>
-                <img className="  h-8" src="/images/Logo.png" alt="" />
+                <img className="  h-8" src="/assets/images/Logo.png" alt="" />
               </Link>
-              {/* <span className="self-center text-2xl font-semibold whitespace-nowrap  text-white">
-                AJARCSE
-              </span> */}
             </a>
             <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
               <a
@@ -130,7 +96,6 @@ function Header() {
                   />
                 </svg>
               </a>
-              {/* mob right button start */}
               <button onClick={() => { toggleMenu(); setIsMenuOpen2(false) }} type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-primary-blue-color rounded-lg md:hidden hover:text-primary-blue-color " >
                 <span className="sr-only">Open main menu</span>
                 <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14" >
@@ -228,7 +193,6 @@ function Header() {
                 </li>
               </ul>
             </div>
-
             <div
               className={`${isMenuOpen2 ? "flex" : "lg:hidden md:hidden hidden"
                 } items-center absolute  lg:relative md:right-5 right-0 justify-center rounded-lg bg-primary-dark-blue lg:mt-0 md:mt-0 mt-[580px] z-40 w-full md:flex md:w-auto lg:order-1 md:order-2`}
@@ -239,7 +203,6 @@ function Header() {
                     Home
                   </Link>
                 </li>
-
                 <li onClick={toggleMenu2}>
                   <Link
                     to="/aim-nd-scope"
@@ -249,7 +212,6 @@ function Header() {
                     Aim & Scope
                   </Link>
                 </li>
-
                 <li onClick={toggleMenu2}>
                   <Link
                     to="/aboutus"
@@ -331,5 +293,4 @@ function Header() {
     </>
   );
 }
-
 export default Header;
