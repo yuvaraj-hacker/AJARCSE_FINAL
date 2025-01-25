@@ -112,12 +112,12 @@ function Header() {
             </a>
             <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
               <a
-                className="  hidden  md:hidden text-white bg-primary-blue-color hover:bg-primary-blue-color   font-medium rounded-lg text-sm px-4 py-2 text-center lg:flex items-center gap-4"
+                className="  hidden  md:hidden text-white bg-primary-blue-color  hover:text-primary-blue-color hover:bg-white group  font-medium rounded-lg text-sm px-4 py-2 text-center lg:flex items-center gap-4"
                 href="#"
               >
                 <h1>Submission Portal</h1>
                 <svg
-                  className="h-4 w-4 text-white animate-ping"
+                  className="h-4 w-4 text-white group-hover:text-primary-blue-color animate-ping"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"

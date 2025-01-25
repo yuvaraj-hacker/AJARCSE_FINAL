@@ -10,9 +10,9 @@ function Contactus() {
           <div className="lg:flex md:flex  gap-8 ">
             <div className="max-w-full w-full ">
               <div className="lg:max-w-3xl max-w-xl w-full mx-auto  ">
-                <div className="  :bg-gray-900 lg:px-20   px-5  ">
-                  <div className="  px-4 mx-auto max-w-screen-md bg-white rounded-3xl    ">
-                    <h2 className="mb-4 text-4xl  font-extrabold text-center text-gray-900   :text-white fnt">
+                <div className="  :bg-gray-900 lg:px-20   md:px-5  ">
+                  <div className="    mx-auto max-w-screen-md bg-white rounded-lg  shadow-md border-[#DFE0DF] border md:p-6  p-3 ">
+                    <h2 className="mb-4 text-4xl  font-extrabold text-center    text-[#005248] :text-white fnt">
                       Contact Us
                     </h2>
                     <form className="w-full space-y-4" ngNativeValidate>
@@ -65,14 +65,14 @@ function Contactus() {
                           placeholder="Leave a Message..."
                         ></textarea>
                       </div>
-                        <div className="text-center ">
+                      <div className="text-center ">
                         <button type="submit" className="py-3 px-5 text-sm  bg-primary-blue-color  text-center  hover:bg-white hover:text-primary-blue-color hover:border border text-white rounded-lg bg-primary-red-color sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300   mt-4 " >
                           Send message
                         </button>
                       </div>
                     </form>
                   </div>
-                  <h3 className="mt-10 text-center text-sm md:text-lg">
+                  <h3 className="mt-5 text-center text-sm md:text-lg">
                     {" "}
                     For any queries contact Email :{' '}
                     <a href="mailto:editor@AJARCSE.com" className="text-blue-700 " >
