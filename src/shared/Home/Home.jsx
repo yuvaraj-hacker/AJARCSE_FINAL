@@ -6,9 +6,9 @@ function Home() {
 
   return (
     <>
-      <section>
+      <section className="md:py-10 py-5">
         <section>
-          <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0 py-5">
+          <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0 ">
             <div className="xl:flex    gap-8 ">
               <div className="max-w-full w-full ">
                 <h1 className="text-primary-blue-color-blue-color md:text-3xl text-xl  font-bold ">
@@ -61,7 +61,7 @@ function Home() {
         </section>
 
         <section>
-          <div className="max-w-screen-xl mx-auto w-full lg:px-0 px-5 py-5">
+          <div className="max-w-screen-xl mx-auto w-full lg:px-0 px-5 pt-5">
             <h1 className="mt-3 text-center md:text-base text-sm">
               We publish original research articles, review articles and
               technical notes. The journal reviews papers within two weeks of

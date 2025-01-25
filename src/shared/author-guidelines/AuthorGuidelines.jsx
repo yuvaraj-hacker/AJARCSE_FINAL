@@ -11,8 +11,8 @@ function AuthorGuidelines() {
   return (
     <>
 
-      <section >
-        <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0 py-5">
+      <section  className='md:py-10 py-5'>
+        <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0 ">
           <div className="lg:flex md:flex  gap-8 ">
             <div className="max-w-full w-full ">
               <h1 className="text-primary-blue-color md:text-3xl text-xl font-bold ">Author Guidelines</h1>
@@ -104,7 +104,7 @@ function AuthorGuidelines() {
                     className="text-blue-700 underline  "
                   >
                     {" "}
-                    editor@AJARCSE.com.
+                    editor@ajarcse.com.
                   </a>
                 </li>
               </ul>
@@ -195,7 +195,7 @@ function AuthorGuidelines() {
 
           </div>
 
-          <h1 className="bg-slate-300 h-[1px] w-full mt-5 md:mb-10 mb-6"></h1>
+          <h1 className="bg-slate-300 h-[1px] w-full mt-5  "></h1>
         </div>
 
       </section>

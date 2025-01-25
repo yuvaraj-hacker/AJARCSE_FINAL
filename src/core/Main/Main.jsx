@@ -13,7 +13,7 @@ export default function Main() {
             <div className="h-screen flex flex-col justify-between">
                 <Header />
 
-                <main className=" lg:mt-36 mt-28 ">
+                  <main className=" lg:mt-32 md:mt-[92px] mt-[99px] ">
                     <Outlet />
                 </main>
 

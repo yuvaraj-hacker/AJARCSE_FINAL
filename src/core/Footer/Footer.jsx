@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="bg-primary-blue-color text-white py-3">
+    <footer className="bg-primary-blue-color text-white  py-5">
       <div className=" mx-auto px-5 max-w-[92rem]  " >
-        <div className="grid grid-cols-1   md:grid-cols-3 md:gap-8 gap-4">
+        <div className="grid grid-cols-1  xl:grid-cols-4 md:grid-cols-3 md:gap-8 gap-4">
           {/* Contact Information */}
           <div className='text-center md:text-left'>
             {/* <h4 className="text-xl font-bold mb-2">AJARCSE</h4> */}
@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
 
           {/* Navigation Links */}
-          <div className='lg:mx-auto text-center'>
+          <div className='lg:mx-auto md:text-right text-center '>
             <h4 className="text-xl font-bold mb-2">Resources</h4>
             <ul>
               <li><a href="/" className="hover:underline">Home</a></li>
@@ -39,7 +39,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className='lg:ml-auto md:text-right text-center '>
+          <div className='lg:ml-auto  md:text-right text-center  '>
 
             <div className='flex gap-4 flex-wrap justify-center items-end '>
               <div className=''>
@@ -53,10 +53,12 @@ const Footer = () => {
                   <li><a href="/articleProcess" className="hover:underline">Article Processing Charges</a></li>
                 </ul>
               </div>
-              <div>
-                <img className='md:ml-auto md:mx-0 mx-auto w-24 xl:block hidden' src="logo/ojs_brand.png" alt="ojs" />
-              </div>
+
             </div>
+
+          </div>
+          <div className=' place-content-end'>
+            <img className='md:ml-auto md:mx-0 mx-auto w-24 xl:block hidden' src="logo/ojs_brand.png" alt="ojs" />
           </div>
 
         </div>
@@ -64,7 +66,7 @@ const Footer = () => {
         <div className='grid lg:grid-cols-3 grid-cols-1  items-center   '>
           <div>
           </div>
-          <div className="text-center mt-4  ">
+          <div className="text-center  mt-3 ">
             <p>© 2025 <span className='hover:underline' > <Link to="/" target='_blank'>AJARCSE</Link> </span> . All Rights Reserved.</p>
           </div>
           <div className='mt-5'>

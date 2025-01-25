@@ -11,7 +11,7 @@ function Issues() {
 
 
             <section >
-                <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0 py-5 md:min-h-[85vh] ">
+                <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0  md:py-10 py-5  ">
                     <div className="lg:flex md:flex  gap-8 ">
                         <div className="max-w-full w-full ">
                             <h1 className="text-primary-blue-color text-3xl font-bold ">Issues</h1>

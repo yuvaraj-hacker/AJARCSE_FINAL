@@ -6,8 +6,8 @@ function Copyrights() {
 
     return (
         <>
-            <section >
-                <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0 py-5 min-h-[80vh]">
+            <section className='md:py-10 py-5'>
+                <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0   ">
                     <div className="lg:flex md:flex  gap-8 ">
                         <div className="max-w-full w-full  md:text-base text-sm">
                             <h1 className="text-primary-blue-color md:text-3xl text-xl font-bold ">Copyright Form</h1>

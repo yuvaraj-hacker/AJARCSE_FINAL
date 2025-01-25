@@ -76,7 +76,7 @@ function Contactus() {
                     {" "}
                     For any queries contact Email :{' '}
                     <a href="mailto:editor@AJARCSE.com" className="text-blue-700 " >
-                      editor@AJARCSE.com
+                      editor@ajarcse.com
                     </a>
                   </h3>
                 </div>
