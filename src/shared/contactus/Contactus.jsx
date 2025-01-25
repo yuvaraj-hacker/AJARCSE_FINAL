@@ -41,14 +41,9 @@ function Contactus() {
                         >
                           Contact Number
                         </label>
-                        <input
-                          type="text"
-                          name="number"
-                          id="number"
-                          ngModel
+                        <input type="text" name="number" id="number" ngModel
                           className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4  "
-                          placeholder="Enter Your Mobile Number"
-                          required
+                          placeholder="Enter Your Mobile Number" required
                         />
                       </div>
 
@@ -56,17 +51,14 @@ function Contactus() {
                         <label for="message" className="block mb-2 text-sm text-gray-900">
                           Your Message
                         </label>
-                        <textarea
-                          id="message"
-                          name="message"
-                          ngModel
+                        <textarea id="message" name="message" ngModel
                           rows="4"
                           className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500   mt-4 "
                           placeholder="Leave a Message..."
                         ></textarea>
                       </div>
                       <div className="text-center ">
-                        <button type="submit" className="py-3 px-5 text-sm  bg-primary-blue-color  text-center  hover:bg-white hover:text-primary-blue-color hover:border border text-white rounded-lg bg-primary-red-color sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300   mt-4 " >
+                        <button type="submit" className="py-3 px-5 text-sm  bg-primary-blue-color  text-center  hover:bg-white hover:text-primary-blue-color hover:border border text-white rounded-lg bg-primary-red-color sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300    " >
                           Send message
                         </button>
                       </div>
