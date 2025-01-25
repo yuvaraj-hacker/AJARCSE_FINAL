@@ -5,8 +5,8 @@ import Sidebar from "../Sidebar/Sidebar";
 function Contactus() {
   return (
     <>
-      <section>
-        <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0 py-5 md:min-h-[85vh]">
+      <section className="md:py-10 py-5">
+        <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0  ">
           <div className="lg:flex md:flex  gap-8 ">
             <div className="max-w-full w-full ">
               <div className="lg:max-w-3xl max-w-xl w-full mx-auto  ">
@@ -65,7 +65,7 @@ function Contactus() {
                           placeholder="Leave a Message..."
                         ></textarea>
                       </div>
-                      <div className="text-center ">
+                        <div className="text-center ">
                         <button type="submit" className="py-3 px-5 text-sm  bg-primary-blue-color  text-center  hover:bg-white hover:text-primary-blue-color hover:border border text-white rounded-lg bg-primary-red-color sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300   mt-4 " >
                           Send message
                         </button>
