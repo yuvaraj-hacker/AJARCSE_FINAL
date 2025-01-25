@@ -85,9 +85,7 @@ function Header() {
           <div className="hidden lg:block md:hidden max-w-full w-full mx-auto  ">
             <div className="lg:flex md:flex items-center gap-0 bg-primary-blue-color ">
               <Link to="/" onClick={scrollToTop}>
-                <div
-                  role="button"
-                  className="pr-16 pl-10 max-w-sm flex justify-center items-center   gap-2 md:max-w-xs  w-full font-bold text-center   lg:text-3xl head-shap  bg-white py-4"
+                <div role="button" className="pr-16 pl-10 max-w-sm flex justify-center items-center   gap-2 md:max-w-xs  w-full font-bold text-center   lg:text-3xl head-shap  bg-white py-4"
                 >
                   {/* <img className=" drop-shadow h-12" src="logo/logo.png" alt="" /> */}
                   <img className=" drop-shadow    " src="/images/Logo.png" alt="" />

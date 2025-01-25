@@ -66,7 +66,7 @@ const Footer = () => {
         <div className='grid lg:grid-cols-3 grid-cols-1  items-center   '>
           <div>
           </div>
-          <div className="text-center  mt-3 ">
+          <div className="text-center  mt-4 ">
             <p>© 2025 <span className='hover:underline' > <Link to="/" target='_blank'>AJARCSE</Link> </span> . All Rights Reserved.</p>
           </div>
           <div className='mt-5'>
