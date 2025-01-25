@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="bg-primary-blue-color text-white  py-5">
-      <div className=" mx-auto px-5 max-w-[92rem]  " >
+    <footer className="bg-primary-blue-color text-white  ">
+      <div className=" mx-auto px-5 max-w-[92rem] py-5  " >
         <div className="grid grid-cols-1  xl:grid-cols-4 md:grid-cols-3 md:gap-8 gap-4">
           {/* Contact Information */}
           <div className='text-center md:text-left'>
@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
 
           {/* Navigation Links */}
-          <div className='lg:mx-auto md:text-right text-center '>
+          <div className='lg:mx-auto md:text-left text-center '>
             <h4 className="text-xl font-bold mb-2">Resources</h4>
             <ul>
               <li><a href="/" className="hover:underline">Home</a></li>
@@ -39,7 +39,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className='lg:ml-auto  md:text-right text-center  '>
+          <div className='lg:ml-auto  md:text-left text-center  '>
 
             <div className='flex gap-4 flex-wrap justify-center items-end '>
               <div className=''>
@@ -57,21 +57,23 @@ const Footer = () => {
             </div>
 
           </div>
-          <div className=' place-content-end'>
-            <img className='md:ml-auto md:mx-0 mx-auto w-24 xl:block hidden' src="logo/ojs_brand.png" alt="ojs" />
+          <div className=' place-content-end xl:block hidden'>
+            <img className='md:ml-auto md:mx-0 mx-auto w-24 ' src="logo/ojs_brand.png" alt="ojs" />
           </div>
 
         </div>
-        <h1 className="bg-slate-300 h-[1px] w-full mt-5"></h1>
-        <div className='grid lg:grid-cols-3 grid-cols-1  items-center   '>
-          <div>
-          </div>
-          <div className="text-center  mt-4 ">
-            <p>© 2025 <span className='hover:underline' > <Link to="/" target='_blank'>AJARCSE</Link> </span> . All Rights Reserved.</p>
-          </div>
-          <div className='mt-5'>
-            <img className='md:ml-auto md:mx-0 mx-auto w-24 xl:hidden block' src="logo/ojs_brand.png" alt="ojs" />
-          </div>
+      
+
+      </div>
+      <h1 className="bg-slate-300 h-[1px] max-w-[92rem] mx-auto  "></h1>
+      <div className='grid lg:grid-cols-3 grid-cols-1  items-center  gap-2  py-5'>
+        <div>
+        </div>
+        <div className="text-center    ">
+          <p>© 2025 <span className='hover:underline' > <Link to="/" target='_blank'>AJARCSE</Link> </span> . All Rights Reserved.</p>
+        </div>
+        <div className=' '>
+          <img className='md:ml-auto md:mx-0 mx-auto w-24 xl:hidden block' src="logo/ojs_brand.png" alt="ojs" />
         </div>
       </div>
     </footer>
