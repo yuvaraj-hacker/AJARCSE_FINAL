@@ -17,43 +17,27 @@ function Contactus() {
                     </h2>
                     <form className="w-full space-y-4" ngNativeValidate>
                       <div>
-                        <label
-                          for="email"
-                          className="block mb-2 text-sm   text-gray-900 md:mt-8 mt-4:text-gray-300"
-                        >
+                        <label for="email" className="block mb-2 text-sm   text-gray-900   mt-4 :text-gray-300"   >
                           Name
                         </label>
-                        <input
-                          type="text"
-                          name="name"
-                          id="name"
-                          ngModel
-                          className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 md:mt-8 mt-4:bg-gray-700 md:mt-8 mt-4:border-gray-600 md:mt-8 mt-4:placeholder-gray-400 md:mt-8 mt-4:text-white md:mt-8 mt-4:focus:ring-primary-500 md:mt-8 mt-4:focus:border-primary-500 md:mt-8 mt-4:shadow-sm-light"
+                        <input type="text" name="name" id="name" ngModel
+                          className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4        "
                           placeholder="Enter Your Name"
                           required
                         />
                       </div>
                       <div>
-                        <label
-                          for="email"
-                          className="block mb-2 text-sm   text-gray-900 md:mt-8 mt-4:text-gray-300"
-                        >
+                        <label for="email" className="block mb-2 text-sm   text-gray-900   mt-4  :text-gray-300"  >
                           Email
                         </label>
-                        <input
-                          type="email"
-                          name="email"
-                          id="email"
-                          ngModel
-                          className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 md:mt-8 mt-4:bg-gray-700 md:mt-8 mt-4:border-gray-600 md:mt-8 mt-4:placeholder-gray-400 md:mt-8 mt-4:text-white md:mt-8 mt-4:focus:ring-primary-500 md:mt-8 mt-4:focus:border-primary-500 md:mt-8 mt-4:shadow-sm-light"
-                          placeholder="name@gmail.com"
-                          required
-                        />
+                        <input type="email" name="email" id="email" ngModel
+                          className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4 "
+                          placeholder="name@gmail.com" required />
                       </div>
                       <div>
                         <label
                           for="email"
-                          className="block mb-2 text-sm   text-gray-900 md:mt-8 mt-4:text-gray-300"
+                          className="block mb-2 text-sm   text-gray-900   mt-4 :text-gray-300"
                         >
                           Contact Number
                         </label>
@@ -62,7 +46,7 @@ function Contactus() {
                           name="number"
                           id="number"
                           ngModel
-                          className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 md:mt-8 mt-4:bg-gray-700 md:mt-8 mt-4:border-gray-600 md:mt-8 mt-4:placeholder-gray-400 md:mt-8 mt-4:text-white md:mt-8 mt-4:focus:ring-primary-500 md:mt-8 mt-4:focus:border-primary-500 md:mt-8 mt-4:shadow-sm-light"
+                          className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4  "
                           placeholder="Enter Your Mobile Number"
                           required
                         />
@@ -77,12 +61,12 @@ function Contactus() {
                           name="message"
                           ngModel
                           rows="4"
-                          className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 md:mt-8 mt-4:bg-gray-700 md:mt-8 mt-4:border-gray-600 md:mt-8 mt-4:placeholder-gray-400 md:mt-8 mt-4:text-white md:mt-8 mt-4:focus:ring-primary-500 md:mt-8 mt-4:focus:border-primary-500"
+                          className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500   mt-4 "
                           placeholder="Leave a Message..."
                         ></textarea>
                       </div>
                       <div className="text-center ">
-                        <button type="submit" className="py-3 px-5 text-sm  bg-primary-blue-color  text-center  hover:bg-white hover:text-primary-blue-color hover:border border text-white rounded-lg bg-primary-red-color sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 md:mt-8 mt-4:bg-primary-600 md:mt-8 mt-4:hover:bg-primary-700 md:mt-8 mt-4:focus:ring-primary-800" >
+                        <button type="submit" className="py-3 px-5 text-sm  bg-primary-blue-color  text-center  hover:bg-white hover:text-primary-blue-color hover:border border text-white rounded-lg bg-primary-red-color sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300   mt-4 " >
                           Send message
                         </button>
                       </div>

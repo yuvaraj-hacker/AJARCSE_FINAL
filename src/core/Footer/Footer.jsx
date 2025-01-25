@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="bg-primary-blue-color text-white py-6">
-      <div className=" mx-auto px-5 max-w-[97rem]  " >
+    <footer className="bg-primary-blue-color text-white py-3">
+      <div className=" mx-auto px-5 max-w-[92rem]  " >
         <div className="grid grid-cols-1   md:grid-cols-3 md:gap-8 gap-4">
           {/* Contact Information */}
           <div className='text-center md:text-left'>
@@ -40,26 +40,35 @@ const Footer = () => {
           </div>
 
           <div className='lg:ml-auto md:text-right text-center '>
-            <h4 className="text-xl font-bold mb-2">Journal Overview</h4>
-            <ul className="">
-              <li><a href="/editorial-board" className="hover:underline">Editorial Board</a></li>
-              <li><a href="/peerreview" className="hover:underline">Peer Review Process</a></li>
-              <li><a href="/publicationethic" className="hover:underline">Publication Ethics</a></li>
-              <li><a href="/abstracting" className="hover:underline">Abstracting and Indexing</a></li>
-              <li><a href="/articleProcess" className="hover:underline">Article Processing Charges</a></li>
-            </ul>
+
+            <div className='flex gap-4 flex-wrap justify-center items-end '>
+              <div className=''>
+                <h4 className="text-xl font-bold mb-2">Journal Overview</h4>
+                <ul className=" ">
+
+                  <li><a href="/editorial-board" className="hover:underline">Editorial Board</a></li>
+                  <li><a href="/peerreview" className="hover:underline">Peer Review Process</a></li>
+                  <li><a href="/publicationethic" className="hover:underline">Publication Ethics</a></li>
+                  <li><a href="/abstracting" className="hover:underline">Abstracting and Indexing</a></li>
+                  <li><a href="/articleProcess" className="hover:underline">Article Processing Charges</a></li>
+                </ul>
+              </div>
+              <div>
+                <img className='md:ml-auto md:mx-0 mx-auto w-24 xl:block hidden' src="logo/ojs_brand.png" alt="ojs" />
+              </div>
+            </div>
           </div>
 
         </div>
         <h1 className="bg-slate-300 h-[1px] w-full mt-5"></h1>
-        <div className='grid lg:grid-cols-3 grid-cols-1  items-center mt-5'>
+        <div className='grid lg:grid-cols-3 grid-cols-1  items-center   '>
           <div>
           </div>
-          <div className="text-center lg:mb-0 mb-5">
+          <div className="text-center mt-4  ">
             <p>© 2025 <span className='hover:underline' > <Link to="/" target='_blank'>AJARCSE</Link> </span> . All Rights Reserved.</p>
           </div>
-          <div>
-            <img className='md:ml-auto md:mx-0 mx-auto w-24' src="logo/ojs_brand.png" alt="ojs" />
+          <div className='mt-5'>
+            <img className='md:ml-auto md:mx-0 mx-auto w-24 xl:hidden block' src="logo/ojs_brand.png" alt="ojs" />
           </div>
         </div>
       </div>

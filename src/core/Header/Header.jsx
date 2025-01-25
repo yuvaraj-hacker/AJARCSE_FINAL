@@ -90,7 +90,7 @@ function Header() {
                   className="pr-16 pl-10 max-w-sm flex justify-center items-center   gap-2 md:max-w-xs  w-full font-bold text-center   lg:text-3xl head-shap  bg-white py-4"
                 >
                   {/* <img className=" drop-shadow h-12" src="logo/logo.png" alt="" /> */}
-                  <img className=" drop-shadow    " src="src/assets/Images/Logo.png" alt="" />
+                  <img className=" drop-shadow    " src="/images/Logo.png" alt="" />
                   {/* <h1 className="text-primary-blue-color drop-shadow">
                   AJARCSE
                 </h1> */}
@@ -115,7 +115,7 @@ function Header() {
             <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
               <a
                 className="  hidden  md:hidden text-white bg-primary-blue-color hover:bg-primary-blue-color   font-medium rounded-lg text-sm px-4 py-2 text-center lg:flex items-center gap-4"
-                href="https://AJARCSE.com/aritms/index.php/AJARCSE/about/submissions"
+                href="#"
               >
                 <h1>Submission Portal</h1>
                 <svg
@@ -155,7 +155,7 @@ function Header() {
                 <li>
                   <button id="dropdownNavbarLink1" onClick={toggleDropdown1} className="flex items-center justify-center w-full py-2 px-3 text-primary-blue-color rounded  md:hover:bg-transparent hover:bg-gray-100 md:border-0  hover:text-primary-blue-color border-b md:p-0 md:w-auto " >
                     Journal Overview
-                    <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true"
+                    <svg   className={`${dropdown1Open ? 'rotate-180' : 'rotate-0'} text-2xl duration-300 w-2.5 h-2.5 ms-2.5`} aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 10 6"  >
@@ -164,64 +164,58 @@ function Header() {
                   </button>
                   {/* <!-- Dropdown menu --> */}
                   <div className="">
-                    <div id="dropdownNavbar1" className={`${dropdown1Open ? "block" : "hidden"} z-10 font-normal bg-primary-dark-blue divide-y divide-gray-100 border rounded-lg shadow w-50    absolute    dark:divide-gray-600 text-primary-blue-color lg:mt-4 ml-16 lg:-ml-8 md:-ml-6`} >
+                    <div id="dropdownNavbar1" className={`${dropdown1Open ? "block" : "hidden"} z-10 font-normal  bg-primary-dark-blue divide-y divide-gray-100 border rounded-lg shadow w-50    absolute    dark:divide-gray-600 text-primary-blue-color lg:mt-4 ml-16 lg:-ml-8 md:-ml-6`} >
                       <ul className="p-2 text-xs  " aria-labelledby="dropdownLargeButton"  >
                         <li onClick={togglemenuDropdown1}>
-                          <Link to="/aboutus" onClick={scrollToTop} className="block px-4 py-2 border-b rounded hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"  >
+                          <Link to="/aboutus" onClick={scrollToTop} className="block px-4 py-2 border-b rounded md:text-base   hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"  >
                             About
                           </Link>
                         </li>
                         <li onClick={togglemenuDropdown1}>
-                          <Link to="/aim-nd-scope" onClick={scrollToTop} className="   xl:hidden block px-4 py-2 border-b rounded hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"  >
+                          <Link to="/aim-nd-scope" onClick={scrollToTop} className="   xl:hidden block px-4 py-2 border-b md:text-base rounded hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"  >
                             Aim and Scope
                           </Link>
                         </li>
                         <li onClick={togglemenuDropdown1}>
-                          <Link to="/editorial-board" onClick={scrollToTop} className="block px-4 py-2 border-b rounded hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white" >
+                          <Link to="/editorial-board" onClick={scrollToTop} className="block px-4 py-2 border-b rounded md:text-base hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white" >
                             Editorial Board
                           </Link>
                         </li>
                         <li onClick={togglemenuDropdown1}>
-                          <Link
-                            to="/peerreview"
-                            onClick={scrollToTop}
-                            className="block px-4 py-2 border-b rounded hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"
+                          <Link to="/peerreview" onClick={scrollToTop} className="block px-4 py-2 border-b rounded hover:bg-gray-100 hover:text-primary-blue-color md:text-base dark:hover:bg-gray-600 dark:hover:text-white"
                           >
                             Peer Review Process
                           </Link>
                         </li>
                         <li onClick={togglemenuDropdown1}>
-                          <Link to="/publicationethic" onClick={scrollToTop} className="block px-4 py-2 border-b rounded hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"
+                          <Link to="/publicationethic" onClick={scrollToTop} className="block px-4 py-2 border-b rounded md:text-base hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"
                           >
                             Publication Ethics
                           </Link>
                         </li>
                         <li onClick={togglemenuDropdown1}>
-                          <Link
-                            to="/abstracting"
-                            onClick={scrollToTop}
-                            className="block px-4 py-2 border-b rounded hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"
+                          <Link to="/abstracting" onClick={scrollToTop} className="block px-4 py-2 border-b rounded hover:bg-gray-100 hover:text-primary-blue-color md:text-base dark:hover:bg-gray-600 dark:hover:text-white"
                           >
                             Abstracting and Indexing
                           </Link>
                         </li>
                         <li onClick={togglemenuDropdown1}>
-                          <Link to="/articleProcess" onClick={scrollToTop} className="block px-4 py-2 border-b rounded hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"  >
+                          <Link to="/articleProcess" onClick={scrollToTop} className="block px-4 py-2 border-b rounded md:text-base hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"  >
                             Article Processing Charges
                           </Link>
                         </li>
                         <li onClick={togglemenuDropdown1}>
-                          <Link to="/issues" onClick={scrollToTop} className=" xl:hidden block px-4 py-2 border-b rounded hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"  >
+                          <Link to="/issues" onClick={scrollToTop} className=" xl:hidden block px-4 py-2 border-b rounded md:text-base hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"  >
                             Issues
                           </Link>
                         </li>
                         <li onClick={togglemenuDropdown1}>
-                          <Link to="/author-guidelines" onClick={scrollToTop} className=" xl:hidden block px-4 py-2 border-b rounded hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"  >
+                          <Link to="/author-guidelines" onClick={scrollToTop} className=" xl:hidden block px-4 py-2 border-b md:text-base rounded hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"  >
                             Author Guidelines
                           </Link>
                         </li>
                         <li onClick={togglemenuDropdown1}>
-                          <Link to="/copyright-form" onClick={scrollToTop} className=" xl:hidden block px-4 py-2 border-b rounded hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"  >
+                          <Link to="/copyright-form" onClick={scrollToTop} className=" xl:hidden block px-4 py-2 border-b md:text-base rounded hover:bg-gray-100 hover:text-primary-blue-color dark:hover:bg-gray-600 dark:hover:text-white"  >
                             Copyright Form
                           </Link>
                         </li>
@@ -230,7 +224,7 @@ function Header() {
                   </div>
                 </li>
                 <li onClick={() => { toggleMenu(); setDropdown1Open(false); }}>
-                  <Link to="/contactus" onClick={scrollToTop} className="block py-2 px-3 text-primary-blue-color rounded hover:bg-gray-100  md:hover:bg-transparent hover:text-primary-blue-color border-b lg:border-b-0 md:border-b-0 md:p-0 " >
+                  <Link to="/contactus" onClick={scrollToTop} className="block py-2 px-3 text-primary-blue-color  md:text-base rounded hover:bg-gray-100  md:hover:bg-transparent hover:text-primary-blue-color border-b lg:border-b-0 md:border-b-0 md:p-0 " >
                     Contact
                   </Link>
                 </li>
@@ -326,7 +320,7 @@ function Header() {
             </div>
           </div>
           <a className="lg:hidden md:flex text-white bg-primary-blue-color hover:bg-primary-blue-color  font-medium text-sm px-6 py-3 text-center flex items-center justify-center gap-4 "
-            href="https://AJARCSE.com/aritms/index.php/AJARCSE/about/submissions" >
+            href=" #" >
             <h1>Submission Portal</h1>
             <svg className="h-4 w-4 text-white animate-ping" fill="none" viewBox="0 0 24 24" stroke="currentColor"  >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
