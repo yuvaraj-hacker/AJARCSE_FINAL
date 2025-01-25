@@ -12,7 +12,7 @@ const Footer = () => {
             {/* <h4 className="text-xl font-bold mb-2">AJARCSE</h4> */}
             <Link to='/'>
               <div className='p-3 bg-white w-fit mb-5 rounded-md md:mx-0 mx-auto' >
-                <img className='w-40' src="src/assets/Images/Logo.png " alt="" />
+                <img className='w-40' src="/images/Logo.png" alt="" />
               </div>
             </Link>
 
