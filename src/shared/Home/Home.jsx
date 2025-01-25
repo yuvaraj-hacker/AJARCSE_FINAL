@@ -23,7 +23,6 @@ function Home() {
                   and engineering. The journal focuses on fostering advancements in cutting-edge technologies,
                   methodologies, and management sciences that drive progress in the digital era.
                 </h1>
-
                 <h1 className="bg-slate-300 h-[1px] w-full"></h1>
                 <h1 className="bg-primary-blue-color text-white p-2 shadow mt-5 font-semibold py-2">
                   The Journal covers following areas :
