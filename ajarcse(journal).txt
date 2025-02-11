@@ -1,0 +1,10 @@
+AJARCSE (Journal Project )
+Login
+username :  admin
+password  :  Edtior#ajarcse
+email         :  editor@ajarcse.com
+Database(Mysql)
+host id       :  89.116.53.23
+username  :  u937770786_ajarcse
+databasename  :  u937770786_ajarcse
+password  :  Z]~k3mc2n>8

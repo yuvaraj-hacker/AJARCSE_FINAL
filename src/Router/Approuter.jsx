@@ -12,25 +12,29 @@ import ArticleProcess from "../shared/journal-overview/ArticleProcess";
 import PeerReview from "../shared/journal-overview/PeerReview";
 import PublicationEthic from "../shared/journal-overview/PublicationEthic";
 import Homes from "../components/Homes";
+import ScrollToTop from "./ScrollToTop";
 export default function Approuter() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route element={<Main />}>
-          <Route path="/" element={<Homes />} />
-          <Route path="/aim-nd-scope" element={<AimscopePage />} />
-          <Route path="/aboutus" element={<AboutusPage />} />
-          <Route path="/author-guidelines" element={<AuthorguidelinesPage />} />
-          <Route path="/contactus" element={<ContactusPage />} />
-          <Route path="/copyright-form" element={<CopyrightsPage />} />
-          <Route path="/editorial-board" element={<EditorialboardPage />} />
-          <Route path="/issues" element={<IssuesPage />} />
-          <Route path="/abstracting" element={<Abstracting />} />
-          <Route path="/articleProcess" element={<ArticleProcess />} />
-          <Route path="/peerreview" element={<PeerReview />} />
-          <Route path="/publicationethic" element={<PublicationEthic />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <ScrollToTop />
+        <Routes>
+          <Route element={<Main />}>
+            <Route path="/" element={<Homes />} />
+            <Route path="/aim-nd-scope" element={<AimscopePage />} />
+            <Route path="/aboutus" element={<AboutusPage />} />
+            <Route path="/author-guidelines" element={<AuthorguidelinesPage />} />
+            <Route path="/contactus" element={<ContactusPage />} />
+            <Route path="/copyright-form" element={<CopyrightsPage />} />
+            <Route path="/editorial-board" element={<EditorialboardPage />} />
+            <Route path="/issues" element={<IssuesPage />} />
+            <Route path="/abstracting" element={<Abstracting />} />
+            <Route path="/articleProcess" element={<ArticleProcess />} />
+            <Route path="/peerreview" element={<PeerReview />} />
+            <Route path="/publicationethic" element={<PublicationEthic />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
