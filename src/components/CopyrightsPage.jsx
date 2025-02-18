@@ -8,9 +8,9 @@ function CopyrightsPage() {
       <HelmetProvider>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>AJARCSE - Contact Us</title>
+          <title>AJARCSE - Copyright</title>
           <link rel="icon" type="image/png" href="/assets/images/Faviico.png" />
-          <meta name="keywords" content="AJARCSE,Computer Science Research,Open Access Journals,Engineering Innovations,Artificial Intelligence(AI),Machine Learning (ML),Data Science and Analytics,Cybersecurity,Cloud Computing,Blockchain Technology,Robotics and Automation,Software Engineering,Quantum Computing,IoT Research,Natural Language Processing(NLP),Computer Vision." />
+          <meta name="keywords"  content="AJARCSE,American Journal of Advanced Research in Computer Science & Engineering,Computer Science Research,Open Access Journals,Engineering Innovations,Artificial Intelligence(AI),Machine Learning (ML),Data Science and Analytics,Cybersecurity,Cloud Computing,Blockchain Technology,Robotics and Automation,Software Engineering,Quantum Computing,IoT Research,Natural Language Processing(NLP),Computer Vision." />
           <meta name="description" content="Explore cutting-edge research in computer science and engineering with the American Journal of Advanced Research in Computer Science & Engineering (AJARCSE). A platform for academics, professionals, and innovators to publish groundbreaking studies and foster technological advancements." />
           <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
           <meta property="og:type" content="website" />

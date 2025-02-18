@@ -9,9 +9,9 @@ function Contactus() {
             <div className="lg:max-w-3xl max-w-xl w-full mx-auto  ">
               <div className="  :bg-gray-900 lg:px-20   md:px-5  ">
                 <div className="    mx-auto max-w-screen-md bg-white rounded-lg  shadow-md border-[#DFE0DF] border md:p-6  p-3 ">
-                  <h2 className="mb-4 md:text-4xl text-xl font-extrabold text-center    text-[#005248] :text-white fnt">
+                  <h1 className="mb-4 md:text-4xl text-xl font-extrabold text-center    text-[#005248] :text-white fnt">
                     Contact Us
-                  </h2>
+                  </h1>
                   <form className="w-full space-y-4" ngNativeValidate>
                     <div>
                       <label for="email" className="block mb-2 text-sm   text-gray-900   mt-4 :text-gray-300">
